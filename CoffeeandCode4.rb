@@ -12,7 +12,7 @@ hash_movies = Hash[movies]
 
 hash ={}
 movies.each do |movies|
-  hash[movies[0]] = movie[1]
+  hash[movies[0]] = movies[1]
 end
 print hash_movies.inspect
 print hash.inspect
@@ -27,4 +27,4 @@ suits = ['spades', 'hearts', 'diamonds', 'clubs']
 #   puts combination [:number => nr] = [:suits => suits]
 # end
 
-puts numbers.product(suits)
+print numbers.product(suits)

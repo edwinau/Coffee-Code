@@ -1,0 +1,11 @@
+movies = [['Alfonso Cuaron', 'Gravity'], ['Spike Jonze', 'Her'], ['Martin Scorsese', 'The Wolf of Wall Street']]
+
+{"Alfonso Cuaron" => "Gravity", "Spike Jonze" => "Her", "Martin Scorsese" => "The Wolf of Wall Street"}
+
+
+array = [1, 12, 144, 1728, 20736, 248832, 2985984, 35831808]
+
+def array(mulitply)
+total = 0
+array.each do |x|
+  x *=

@@ -28,3 +28,10 @@ suits = ['spades', 'hearts', 'diamonds', 'clubs']
 # end
 
 print numbers.product(suits)
+
+
+suits.each do |suit|
+    numbers.each do |number|
+      cards << [suit,number]
+    end
+  end
